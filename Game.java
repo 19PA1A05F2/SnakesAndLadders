@@ -53,7 +53,7 @@ public class Game {
             playerTurns.add(p);
         }
 
-        Board gameBoard = new Board(bSize*bSize, dice, snakeMap, ladderMap, playerTurns);
+        Board gameBoard = new Board(bSize, dice, snakeMap, ladderMap, playerTurns);
         gameBoard.startGame();
         sc.close();
     }
